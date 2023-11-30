@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morphology Match</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Morphology Match</h1>
+        <div id="instructions">
+            <h2>How to Play</h2>
+            <p>
+                Morphology Match is a word puzzle game where you must match words with shared morphological features across multiple rows.
+            </p>
+            <ol>
+                <li>Shuffle the word rows using the "Shuffle Rows" button.</li>
+                <li>Click the "Check Matches" button to identify matching words.</li>
+                <li>Your score is cumulative across all rounds.</li>
+                <li>Advance to the next round by clicking the "Next Round" button.</li>
+                <li>Click the "Start Over" button to reset the game to the first round and clear your score.</li>
+            </ol>
+        </div>
+        <div id="game-board">
+        </div>
+        <div class="buttons">
+            <button id="shuffle-button">Shuffle Rows</button>
+            <button id="check-button">Check Matches</button>
+            <button id="next-round-button">Next Round</button>
+            <button id="start-over-button">Start Over</button>
+        </div>
+        <div id="score-board">
+            <h2>Total Score: <span id="total-score">0</span></h2>
+            <h2>Round Score: <span id="round-score">0</span></h2>
+            <h2>Round: <span id="round">1</span></h2>
+        </div>
+    </div>
+
+    <script src="script.js
