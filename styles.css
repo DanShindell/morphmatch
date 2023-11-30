@@ -1,0 +1,57 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+}
+
+#game-container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.word {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.matched {
+    background-color: #00ff00;
+}
+
+.unmatched {
+    background-color: #ff0000;
+}
+
+#check-matches {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#scoreboard {
+    margin-top: 20px;
+}
+
+#score-value {
+    font-weight: bold;
+}
